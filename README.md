@@ -29,11 +29,6 @@ This AutoHotkey (AHK) script is designed for **Path of Exile (POE)** players. It
    - **How it works**: When toggled **on**, pressing **q** triggers the sequence of **q, e, r, t** with random delays between **50ms** and **150ms** for each key press.
    - **Tooltip**: Displays "WarCryPiano ON" when enabled and "WarCryPiano OFF" when disabled.
 
-### 5. **Spacebar Behavior**
-   - **Purpose**: Custom spacebar behavior depending on **spaceToggle**.
-   - **Hotkey**: **Space**
-   - **How it works**: When **spaceToggle** is enabled (via **F2**), the spacebar simulates a left-click mouse press. When disabled, it works as a normal spacebar press.
-
 ## How to Use the Script
 1. Download and install [AutoHotkey](https://www.autohotkey.com/).
 2. Copy the script into a `.ahk` file (e.g., `POE_Script.ahk`).
