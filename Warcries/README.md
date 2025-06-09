@@ -9,12 +9,12 @@ This AutoHotkey (AHK) script automates a sequence of key presses (Q, W, R, T) in
 - **Warcry Sequence**: Automates a key press sequence for abilities (Q, W, R, T) with adjustable delays.
 - **Warcry Toggle Options**: Allows toggling different modes with F1, F2, and F3 keys to customize automation:
   - **F1**: Toggles the Warcry Sequence mode.
-  - **F2**: Toggles a one-time Warcry button press.
+  - **F2**: Toggles one button warcries
   - **F3**: Toggles continuous Warcry button presses with a random delay between each key press.
 - **Randomized Delays**: Random delays between key presses to simulate human input.
 
 ### Key Features Summary:
-- **F1**: Toggles warcry sequence mode (activates the Q, W, R, T sequence).
+- **F1**: Toggles warcry sequence mode (activates the Q, W, R, T sequence) Allows you to press any button (Q, W, R, T) in any order, and will always cast in the sequence (Q, W, R, T).
 - **F2**: Toggles a one-time button press (Q, W, R, T) with randomized delays.
 - **F3**: Toggles continuous auto Warcry press with randomized delays between Q, W, R, T.
 
