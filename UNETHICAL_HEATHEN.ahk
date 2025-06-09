@@ -1,4 +1,4 @@
-﻿; This line makes the script only work when Path of Exile is the active window
+; This line makes the script only work when Path of Exile is the active window
 #IfWinActive, ahk_class POEWindowClass
 
 fmtoggle := false ; Initialize the fmtoggle state for button sequence
@@ -117,9 +117,9 @@ q:: ; Trigger WarCryPiano when q is pressed
         Send, q ; Press q (first key in sequence)
         Sleep, %rand_delay_q%
 
-        Random, rand_delay_e, 50, 150
-        Send, e ; Press w
-        Sleep, %rand_delay_e%
+        Random, rand_delay_w, 50, 150
+        Send, w ; Press w
+        Sleep, %rand_delay_w%
 
         Random, rand_delay_r, 50, 150
         Send, r ; Press r
@@ -131,6 +131,37 @@ q:: ; Trigger WarCryPiano when q is pressed
 
         ToolTip, WarCryPiano Triggered ; Show tooltip indicating WarCryPiano was triggered
         SetTimer, RemoveToolTip, 3000 ; Remove tooltip after 3 seconds
+    }
+    else
+    {
+        Send, q ; Allow normal q press if warcrypiano is off
+    }
+}
+return
+
+w:: ; Allow normal w press when warcrypiano is off
+{
+    if (!warcrypiano)
+    {
+        Send, w
+    }
+}
+return
+
+r:: ; Allow normal r press when warcrypiano is off
+{
+    if (!warcrypiano)
+    {
+        Send, r
+    }
+}
+return
+
+t:: ; Allow normal t press when warcrypiano is off
+{
+    if (!warcrypiano)
+    {
+        Send, t
     }
 }
 return
