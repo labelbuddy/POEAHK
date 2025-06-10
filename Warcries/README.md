@@ -66,16 +66,3 @@ This AutoHotkey (AHK) script automates a sequence of key presses (Q, W, R, T) in
 
 - **Random Delay Range**: The script uses random delays between 50ms and 150ms for each key press. You can adjust this range by changing the `Random, rand_delay_*` values for each key.
 - **Sequence Duration**: The **warcryseq** mode has a 5.5-second duration for the sequence, after which it resets. Adjust this by modifying the `SetTimer, SequenceResetTimer, 5500` line to your preferred value.
-
-## Dependencies
-
-- **AutoHotkey**: This script requires AutoHotkey to run. Download and install it from [AutoHotkey website](https://www.autohotkey.com/).
-
-## License
-
-This script is provided under the [MIT License](https://opensource.org/licenses/MIT). You are free to modify and distribute it under the terms of this license.
-
-## Troubleshooting
-
-- **Script does not work in Path of Exile**: Ensure **Path of Exile** is the active window when running the script.
-- **Hotkeys not working**: Verify that **AutoHotkey** is installed correctly and that no other software is interfering with keypress events.
