@@ -58,19 +58,19 @@ return
 
 WarCryAutoSequence: ; Automatically execute WarCry sequence (Q, W, R, T) with random delays
 {
-    Random, rand_delay_q, 50, 150
+    Random, rand_delay_q, 450, 550
     Send, q ; Press q
     Sleep, %rand_delay_q%
 
-    Random, rand_delay_w, 50, 150
+    Random, rand_delay_w, 450, 550
     Send, w ; Press w
     Sleep, %rand_delay_w%
 
-    Random, rand_delay_r, 50, 150
+    Random, rand_delay_r, 450, 550
     Send, r ; Press r
     Sleep, %rand_delay_r%
 
-    Random, rand_delay_t, 50, 150
+    Random, rand_delay_t, 450, 550
     Send, t ; Press t
     Sleep, %rand_delay_t%
 }
@@ -90,19 +90,19 @@ q:: ; Handle Q for both warcryseq, warcry1button, and warcryauto
     }
     else if (warcry1button) ; If warcry1button is enabled
     {
-        Random, rand_delay_q, 50, 150
+        Random, rand_delay_q, 450, 550
         Send, q ; Press q (first key in sequence)
         Sleep, %rand_delay_q%
 
-        Random, rand_delay_w, 50, 150
+        Random, rand_delay_w, 450, 550
         Send, w ; Press w
         Sleep, %rand_delay_w%
 
-        Random, rand_delay_r, 50, 150
+        Random, rand_delay_r, 450, 550
         Send, r ; Press r
         Sleep, %rand_delay_r%
 
-        Random, rand_delay_t, 50, 150
+        Random, rand_delay_t, 450, 550
         Send, t ; Press t
         Sleep, %rand_delay_t%
 
