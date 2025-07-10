@@ -34,16 +34,6 @@ Designed for players who are tired of yellow beast micromanagement — and those
 
 ---
 
-## 📁 Installation
-
-1. [Install AutoHotkey](https://www.autohotkey.com/)
-2. Save this script as `yellowBeast.ahk`
-3. Launch Path of Exile
-4. Run the script
-5. Use `Shift + F9/F10/F11` to map positions
-
----
-
 ## ⚙️ Advanced Config
 
 You can tweak these values in the script for faster/slower behavior:
