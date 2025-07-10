@@ -65,13 +65,4 @@ You are responsible for your own account — use responsibly.
 
 ---
 
-## 🧼 Future Improvements (optional ideas)
-
-- Config reset hotkey
-- Random click offset
-- Debug overlay to show saved coordinates
-- Mode toggle between "fast" and "realistic"
-
----
-
 🛠️ Made with love and a little hatred for yellow beasts.
